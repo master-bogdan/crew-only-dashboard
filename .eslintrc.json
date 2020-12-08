@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "overrides": [
+    {
+      "files": [ "src/**/*.js" ],
+      "extends": [
+        "standard",
+        "htmlacademy/es6"
+      ],
+      "rules": {
+        "indent": [
+          "error",
+          4
+        ],
+        "semi": [
+          "error",
+          "never"
+        ],
+        "quotes": [
+          "error",
+          "backtick"
+        ]
+      }
+    }
+  ]
+}

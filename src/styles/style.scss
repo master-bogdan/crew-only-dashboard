@@ -1,0 +1,25 @@
+/*------------------------------------*\
+  #Main styles file
+\*------------------------------------*/
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Base variables and styles
+@import 'base/variables';
+@import 'global';
+@import 'base/media';
+@import 'base/typography';
+
+
+// Layout Styles
+@import 'layout/header';
+@import 'layout/menu';
+@import 'layout/footer';
+
+@import 'components/content-divider';
+@import 'components/buttons';
+@import 'components/user-card';
+
+@import 'pages/home';
+
+@import 'base/animations';

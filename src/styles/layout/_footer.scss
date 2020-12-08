@@ -1,0 +1,59 @@
+/* ------------------------------------*\
+  #Footer custom styles
+\*------------------------------------ */
+
+.footer {
+    padding: 30px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+
+    a {
+        color: $main-text-color;
+    }
+
+    margin-top: 55px;
+
+    .nav-link {
+        padding: 0.5rem 0.7rem;
+    }
+
+    @include breakpoint(mobile-xl) {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 0;
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            
+            li:nth-child(2) {
+                order: 2 !important;
+            }
+            li:nth-child(4) {
+                order: 3 !important;
+            }
+        }
+
+        .nav-link {
+            padding: 0;
+        }
+    }
+}
+
+.copyright {
+    color: #aaacb2;
+
+    span {
+        color: #aaacb2;
+    }
+    
+    @include breakpoint(mobile-xl) {
+        width: 48%;
+
+        span {
+            display: block;
+        }
+    }
+}
